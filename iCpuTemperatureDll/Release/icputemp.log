@@ -1,0 +1,20 @@
+﻿Построение начато 03.12.2019 12:01:29.
+     1>Проект "D:\temp\CPUtemp\MYCPUREAD\RwDrvHelperDll\icputemp.vcxproj" в узле 2 (целевые объекты Rebuild).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D PMDLL_EXPORTS /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release\\" /Fd".\Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt initdrv.cpp icputemp.cpp
+         initdrv.cpp
+         icputemp.cpp
+     1>icputemp.cpp(68): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115): см. объявление "strcat"
+         Создание кода...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(D:\temp\CPUtemp\MYCPUREAD\RwDrvHelperDll\.\Release\icputemp.dll) does not match the Linker's OutputFile property value (D:\temp\CPUtemp\MYCPUREAD\Release\icputemp.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../Release/icputemp.dll" /INCREMENTAL:NO /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\Release\icputemp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release\icputemp.lib" /MACHINE:X86 /SAFESEH /DLL .\Release\initdrv.obj
+         .\Release\icputemp.obj
+            Создается библиотека .\Release\icputemp.lib и объект .\Release\icputemp.exp
+         icputemp.vcxproj -> D:\temp\CPUtemp\MYCPUREAD\RwDrvHelperDll\.\Release\icputemp.dll
+     1>Построение проекта "D:\temp\CPUtemp\MYCPUREAD\RwDrvHelperDll\icputemp.vcxproj" завершено (целевые объекты Rebuild).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:01.44
